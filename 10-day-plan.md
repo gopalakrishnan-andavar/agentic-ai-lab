@@ -49,7 +49,9 @@ less than four hours. Do these **in order** and push after every step.
 
 **Remaining time — Python mechanics, in the REPL**
 - Section A of `foundations-refresher.md` (object model), then section C (protocols).
-- Not reading — answering. `id()`, `__defaults__`, `dis.dis()`. Prove each one.
+- Concept first, then apply it — predict the output, run it, explain the gap.
+  `id()`, `__defaults__`, `dis.dis()`. Prove each one; an explanation you did not
+  run is not evidence.
 - Bring me your *fuzzy* and *no idea* list at the end of the day.
 
 ## Tue 15 Sep — 3.5h

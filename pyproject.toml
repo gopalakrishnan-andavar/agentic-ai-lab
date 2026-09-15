@@ -4,7 +4,12 @@ version = "0.1.0"
 description = "Self-learning lab for agentic AI — RAG and a hand-rolled agent loop"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "httpx>=0.28.1",
+    "pydantic>=2.13.5",
+    "python-dotenv>=1.2.3",
+    "tenacity>=9.1.4",
+]
 
 [dependency-groups]
 dev = [

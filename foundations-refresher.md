@@ -15,13 +15,22 @@ underneath is actually there.
 
 ## How to use this
 
-Do not read it as notes. Every line below is a **question you should be able to answer out loud
-without looking**. Work through a section, answer each question, and where you can't — go to the
-linked primary doc, and then *prove it in the REPL* rather than trusting the explanation.
-`id()`, `dis.dis()`, `type()`, `__defaults__` and `time.perf_counter()` are your instruments.
+Each section below is a cluster of *related* mechanics, not a flat quiz. Work a section in two
+passes.
 
-Mark each question: **know it** / **fuzzy** / **no idea**. Bring the fuzzy and no-idea ones to
-the session. That list is worth more than a page of notes.
+**First pass — concept.** Take the explanation for the cluster before you try the questions.
+The questions in a section are not there to catch you cold; they are the checklist of what the
+explanation has to cover. You cannot mark something *fuzzy* that you were never taught — coming
+from Java, most of this is first contact, not revision.
+
+**Second pass — apply.** Then answer the section's questions against real code: predict the
+output *first*, run it, and explain any gap between the two. `id()`, `dis.dis()`, `type()`,
+`__defaults__` and `time.perf_counter()` are your instruments. A concept you can only restate is
+not learned yet; a concept whose behaviour you can predict is. An explanation you did not run is
+not evidence.
+
+Mark each question after the applying pass: **know it** / **fuzzy** / **no idea**. That list is
+the output of a section, and it is worth more than a page of notes.
 
 ---
 
